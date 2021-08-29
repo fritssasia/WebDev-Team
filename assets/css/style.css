@@ -1,6 +1,7 @@
 /* Global CSS */
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color: #f5f5f5;
 }
 
 p {
@@ -24,27 +25,47 @@ p {
 }
 
 .primary-btn {
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     color: #292929;
 }
 
 .primary-btn-outline {
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #f5f5f5;
+    color: #f5f5f5;
 }
 
 .primary-btn-outline:hover {
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     color: #292929;
 }
 /* End Of Button */
 
 /* End Of Global CSS */
 
+/* Nav */
+#nav .nav-link  {
+    border: 1px solid #292929;
+    font-size: 15px;
+    color: #292929;
+    padding: 6px 20px;
+    margin: 0px 10px;
+    transition: 0.9 ease-in;
+}
+
+#nav .nav-link:hover {
+    margin-top: -1px;
+}
+
+#nav .nav-link.active {
+    background-color: #292929;
+    color: #f5f5f5;
+}
+/* End Of Nav */
+
 /* Tab Content : Home */
 .jumbotron {
     background-color: #292929;
-    color: #ffffff;
+    color: #f5f5f5;
     border-radius: 10px;
 }
 
@@ -52,8 +73,8 @@ p {
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 .jumbotron .line {

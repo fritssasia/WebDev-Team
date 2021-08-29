@@ -21,12 +21,15 @@ p {
 /* Button */
 .btn {
     font-size: 15px;
-    
 }
 
 .primary-btn {
     background-color: #f5f5f5;
     color: #292929;
+}
+
+.primary-btn:hover {
+    filter: brightness(85%);
 }
 
 .primary-btn-outline {

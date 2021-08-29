@@ -1,0 +1,70 @@
+/* Global CSS */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* Font Weight */
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+/* End Of Font Weight */
+
+/* Button */
+.btn {
+    font-size: 15px;
+    
+}
+
+.primary-btn {
+    background-color: #ffffff;
+    color: #292929;
+}
+
+.primary-btn-outline {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.primary-btn-outline:hover {
+    background-color: #ffffff;
+    color: #292929;
+}
+/* End Of Button */
+
+/* End Of Global CSS */
+
+/* Tab Content : Home */
+.jumbotron {
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.jumbotron .logo-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.jumbotron .line {
+    border-left: 1px solid #858585;
+}
+
+.jumbotron .btn-contact, .btn-order {
+    padding: 6px 20px;
+}
+
+.jumbotron-btn .btn {
+    margin: 0px 3px;
+}
+/* End Of Tab Content : Home */

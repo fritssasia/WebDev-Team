@@ -23,23 +23,38 @@ p {
     font-size: 15px;
 }
 
-.primary-btn {
+.primary-white-btn {
     background-color: #f5f5f5;
     color: #292929;
 }
 
-.primary-btn:hover {
+.primary-white-btn:hover {
     filter: brightness(85%);
 }
 
-.primary-btn-outline {
+.primary-black-btn {
+    background-color: #292929;
+    color: #f5f5f5 !important;
+}
+
+.primary-white-btn-outline {
     border: 1px solid #f5f5f5;
     color: #f5f5f5;
 }
 
-.primary-btn-outline:hover {
+.primary-white-btn-outline:hover {
     background-color: #f5f5f5;
     color: #292929;
+}
+
+.primary-black-btn-outline {
+    border: 1px solid #292929;
+    color: #292929;
+}
+
+.primary-black-btn-outline:hover {
+    background-color: #292929;
+    color: #f5f5f5;
 }
 /* End Of Button */
 
@@ -92,3 +107,11 @@ p {
     margin: 0px 3px;
 }
 /* End Of Tab Content : Home */
+
+/* Tab Content : Team */
+#nav-team .team-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+/* End Of Tab Content : Team */

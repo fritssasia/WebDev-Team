@@ -115,3 +115,11 @@ p {
     border-radius: 10px;
 }
 /* End Of Tab Content : Team */
+
+/* Tab Content : Work */
+#nav-work .work-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+/* End Of Tab Content : Work */
